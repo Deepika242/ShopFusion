@@ -1,0 +1,22 @@
+.pic {
+  width: 100vw;
+  height: 350px;
+}
+.caption {
+  text-align: center;
+  color: rgb(120, 58, 219);
+  font-size: 20px;
+}
+.caption :hover {
+  color: black;
+  font-size: large;
+}
+.map {
+  height: 350px;
+  width: 500px;
+  display: flex;
+  margin-left: 345px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}

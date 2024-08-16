@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept_58466-14529.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(120, 58, 219);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 2px 3px 4px rgb(120, 58, 219);
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* padding: 20px; */
+  margin: auto;
+  /* margin-bottom: 15px; */
+  justify-content: center;
+}
+.btn-text {
+  padding: 10px;
+}
+.btn-text:hover {
+  transition: background-color 0.3s ease;
+  background-color: rgb(120, 58, 219);
+}
